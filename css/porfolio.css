@@ -153,7 +153,7 @@
     font-weight: bold;
     color: #474747;
 }
-/* do-section-style */
+/* skill-section-style */
 #skill-section{
     width: 71.25%;
     margin:0px auto 130px auto;
@@ -200,3 +200,85 @@
     color: #757575;
     margin-right:20px;
 }
+/* resume-section */
+.resume-section{
+    width:71.25%;
+    margin:0px 230px 130px 277px;
+}
+.resume-heading{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    text-align: center;
+    margin-bottom: 113px;
+}
+.resume-container{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+.education-container .card h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.education-container .card h3{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.education-container .card h4{
+    font-size: 20px;
+    font-weight: SemiBold;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.education-container .card p{
+    font-size: 16px;
+    font-weight: Regular;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.experience-container .card h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.experience-container .card h3{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.experience-container .card h4{
+    font-size: 20px;
+    font-weight: SemiBold;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.experience-container .card p{
+    font-size: 16px;
+    font-weight: Regular;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.resume-btn{
+    text-align: center;
+    margin-top:50px;
+}
+.resume-btn button{
+    border: none;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    padding: 19px 17px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
