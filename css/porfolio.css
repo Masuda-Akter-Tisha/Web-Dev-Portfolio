@@ -16,6 +16,7 @@
     /* background-position: top left,bottom right; */
     background-position-x: 23px,1100px;
     background-position-y: 100px,400px;
+    margin-bottom:130px;
 }
 /* nav-section style */
 .nav-section{
@@ -108,4 +109,88 @@
 .banner-image img{
     width:100%;
     vertical-align: middle;
+}
+/* about-section style */
+#about-section{
+    width: 71.25%;
+    margin:0px auto 130px auto;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+}
+.about-container{
+     padding: 131px 157px;
+     text-align: center;
+}
+.about-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 30px;
+}
+.about-sub-title{
+    font-size: 18px;
+    font-weight: regular;
+    color: #757575;
+    margin-bottom:30px;
+}
+.about-information{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.about-information p{
+    font-size: 20px;
+    font-weight: regular;
+    color: #757575;
+}
+.about-information h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: #474747;
+}
+/* do-section-style */
+#do-section{
+    width: 71.25%;
+    margin:0px auto 130px auto;
+}
+.do-content{
+    text-align: center;
+}
+.do-heading{
+    font-size:35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom:30px;
+}
+.do-sub-heading{
+    font-size: 18px;
+    font-weight: regular;
+    color: #757575;
+    margin-bottom:50px;
+}
+.do-card-container{
+    display: flex;
+    gap: 30px;
+}
+.do-card{
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    box-shadow:0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+}
+.do-card img{
+    margin-bottom: 30px;
+}
+.do-card h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #181818;
+}
+.do-card p{
+     font-size: 16px;
+    font-weight: regular;
+    color: #757575;
+    margin-right:20px;
 }
